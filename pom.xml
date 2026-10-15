@@ -12,8 +12,7 @@
     <properties>
         <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- CHANGE THIS to the exact paper-api version listed on papermc.io for 26.2 -->
-        <paper.version>26.2-REPLACE-ME</paper.version>
+        <paper.version>[26.2.build,)</paper.version>
     </properties>
 
     <repositories>
