@@ -1,0 +1,25 @@
+name: FoliaViewer
+version: 1.0.0
+main: dev.foliaviewer.FoliaViewer
+api-version: '26.2'
+folia-supported: true
+description: View and edit other players' inventories and ender chests.
+
+commands:
+  invsee:
+    description: Open another player's inventory
+    usage: /invsee <player>
+    permission: foliaviewer.invsee
+  ec:
+    description: Open another player's ender chest
+    usage: /ec <player>
+    permission: foliaviewer.ec
+    aliases: [enderchest]
+
+permissions:
+  foliaviewer.invsee:
+    description: Allows /invsee
+    default: op
+  foliaviewer.ec:
+    description: Allows /ec
+    default: op
